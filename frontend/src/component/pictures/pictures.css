@@ -1,0 +1,66 @@
+.picture{
+font-weight: 700;
+color: black;
+box-shadow: 0 0 5px rgb(255, 0, 0);
+width: 850px;
+margin: auto;
+margin-top: 15px;
+padding: 10px;
+padding-left: 23px;
+background-color: rgb(0, 255, 38);
+}
+.picture1{
+    font-weight: 700;
+    color: black;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    width: 850px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    padding-left: 23px;
+    margin-top: 70px;
+    background-color: lightcoral;
+    }
+    .picture2{
+        font-weight: 700;
+        color: black;
+        box-shadow: 0 0 5px rgb(255, 0, 0);
+        width: 850px;
+        margin: auto;
+        margin-top: 15px;
+        padding: 10px;
+        padding-left: 23px;
+        margin-top: 70px;
+        background-color: rgb(24, 161, 83);
+        }
+.c-img{
+    height: 500px;
+    width: 80%;
+    border: 4px solid black;
+}
+.carouselone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.carouseltwo{
+    margin-top: 100px;
+}
+.carouselthree{
+    margin-top: 100px;
+}
+@media (max-width: 768px) {
+    .picture, .picture1 {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .picture, .picture1 {
+        width: 100%; /* Adjust the width for smaller screens */
+        padding-left: 10px; /* Adjust the padding for smaller screens */
+        padding-right: 10px; /* Add right padding for smaller screens */
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+}

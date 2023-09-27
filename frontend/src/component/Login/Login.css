@@ -1,0 +1,101 @@
+.login {
+    width: 100%;
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+    background: url(../../../public/Assets/kitchen.jpg);
+}
+
+.loginuser {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.loginuser input {
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+.loginuser label {
+    width: 955;
+    color: black;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 5px 0;
+    box-shadow: 0 0 10px black;
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+.textlogin {
+    margin-left: 70px;
+    font-size: 31px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 0 5px red;
+    background-color: aliceblue;
+    width: 500px;
+}
+
+.loginbutton {
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+
+}
+
+.submit {
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    color: black;
+    background-color: rgb(43, 190, 40);
+
+}
+
+.cancel {
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    color: black;
+    background-color: aqua;
+
+}
+
+.loginbutton .submit:hover,
+.loginbutton .cancel:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .login {
+        min-width: 280px;
+    }
+
+    .textlogin {
+        max-width: 200px;
+
+    }
+}

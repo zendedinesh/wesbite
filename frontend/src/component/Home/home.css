@@ -1,0 +1,26 @@
+.homemain
+{
+display: flex;
+width: 100%;
+
+flex-direction: column;
+
+
+}
+.heroImages
+{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroImages > h1
+{
+margin-top: -100px;
+color: black;
+font-size: 5rem;
+} 
